@@ -47,6 +47,8 @@ function App() {
             return <Countries countries={item} key={index} removeCountry={removeCountry} />
           })}
       </div>
+
+
     </>
   )
 }
